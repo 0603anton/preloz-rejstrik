@@ -1416,7 +1416,7 @@ ul li a span {
   position: relative;
   padding-bottom: 14px;
   margin-bottom: 17px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 23px;
   color: #222222;
   font-weight: 700;
@@ -1450,7 +1450,7 @@ ul li a span {
   padding: 33px 40px 10px;
 }
 .contact-form-section h3 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-size: 32px;
   margin-bottom: 22px;
   color: #222222;
@@ -1469,7 +1469,7 @@ ul li a span {
 .timetable_block h5 {
   font-size: 22px;
   font-weight: 700;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   text-align: center;
   margin-bottom: 19px;
   color: #222222;
@@ -1486,7 +1486,7 @@ ul li a span {
 .timetable_block > ul > li > p {
   margin: 0;
   color: #222222;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   text-align: left;
   width: 45%;
 }
@@ -1500,14 +1500,14 @@ ul li a span {
 .tollfree_block h5 {
   font-size: 22px;
   font-weight: 600;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: #ffffff;
   margin-bottom: 3px;
 }
 .tollfree_block h3 {
   font-size: 32px;
   font-weight: 700;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-family: "Lato", sans-serif;
   color: #ffffff;
 }
@@ -1687,7 +1687,7 @@ ul li a span {
 
 .Wr-con_box h3 {
   color: #ffffff;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin: 10px 0px;
 }
 
@@ -2276,7 +2276,7 @@ footer {
 
 .footer-col ul li a {
   font-size: 16px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;

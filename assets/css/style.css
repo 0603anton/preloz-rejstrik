@@ -32,7 +32,7 @@ html {
 	-moz-box-sizing: border-box;
 }
 a, a:hover, a:focus{	
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	text-decoration: none;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6{
     transition: all 0.3s;
 	margin:0;
 	padding:0;
-	text-transform:capitalize;
+	/*text-transform:capitalize;*/
 	word-break: break-word;
 }
 img {
@@ -133,7 +133,7 @@ p {
 } */
 .Wr-menu-bar ul li:nth-child(8), .btn a {
     border-radius: 30px;
-    background-color: #e7fefb;
+    background-color: var(--wr-grey-color);
     height: 60px;
     width: 180px;
     text-align: center;
@@ -141,7 +141,7 @@ p {
     align-items: center;
     justify-content: center;
     padding-right: 0;
-    color: #2fdbcb;
+    color: var(--wr-white-color);
     border: 1px solid transparent;
 }
 
@@ -301,7 +301,7 @@ p {
 font-size: 16px;
 line-height: 30px;
 color: #111111;
-font-weight: 400;
+font-weight: 600;
 font-family: "Mulish";
 transition: all 0.3s ease-in-outs;
 }

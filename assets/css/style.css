@@ -602,11 +602,9 @@ span.right-img {
   position: relative;
 }
 
-
-.logo_margin{
+.logo_margin {
   margin-top: 10px;
 }
-
 
 /* Experties css and */
 .right-heading h1 {
@@ -2323,4 +2321,49 @@ gpay {
   .footer-col {
     width: 100%;
   }
+}
+
+/*FAQ*/
+
+.accordion {
+  background-color: #eee;
+  /*color: var(--main-dark);*/
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  /*margin-bottom: 15px;*/
+}
+
+.active {
+  background-color: #ccc;
+}
+
+.accordion:hover {
+  background-color: var(--main-yellow);
+}
+
+.accordion:after {
+  content: "\002B";
+  color: var(--main-dark);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-bottom: 15px;
 }

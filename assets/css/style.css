@@ -1531,18 +1531,18 @@ ul li a span {
     padding-bottom: 80px;
 }
 
-.contact-block {
-    position: relative;
-    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.06);
-    border-radius: 10px;
-    background-color: #ffffff;
-    text-align: center;
-    padding: 50px 40px 43px;
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-}
+/*.contact-block {*/
+/*    position: relative;*/
+/*    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.06);*/
+/*    border-radius: 10px;*/
+/*    background-color: #ffffff;*/
+/*    text-align: center;*/
+/*    padding: 50px 40px 43px;*/
+/*    z-index: 1;*/
+/*    transition: all 0.3s ease-in-out;*/
+/*    -webkit-transition: all 0.3s ease-in-out;*/
+/*    -moz-transition: all 0.3s ease-in-out;*/
+/*}*/
 
 .contact-block:before,
 .contact-block:after,
@@ -2640,6 +2640,15 @@ gpay {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
+    }
+    .map-google{
+        display: none;
+    }
+    .contact-block {
+        padding: 5px;
+    }
+    .timetable_block{
+        padding: 40px 10px 10px;
     }
 }
 

@@ -514,12 +514,13 @@ span.right-img {
 
 .Wr-menu-bar .btn a {
     transition: all 0.5s ease-in-out;
+    background-color: var(--wr-grey-color);
 }
 
-/* .Wr-menu-bar .btn:hover a{
+ .Wr-menu-bar .btn:hover a{
     background-color: #2fdbcb;
     color: #e7fefb;
-} */
+}
 
 /* Banner-css-and */
 /* services-css-start */
@@ -2029,6 +2030,7 @@ ul li a span {
 
 .btn-check:focus + .btn,
 .btn:focus {
+    background-color: var(--wr-grey-color);
     box-shadow: none;
 }
 

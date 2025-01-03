@@ -2756,3 +2756,27 @@ gpay {
     }
 }
 
+.info-tooltip {
+    position: relative;
+    cursor: help;
+}
+
+.info-tooltip .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.4;
+    z-index: 100;
+}
+
+.info-tooltip:hover .tooltip-text {
+    visibility: visible;
+}

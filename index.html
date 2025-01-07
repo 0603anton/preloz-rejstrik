@@ -32,6 +32,38 @@ Author: PixelNX
     <!--=== custom css ===-->
     <title>Přelož Rejstřík - онлайн-сервис для заказа перевода справки о несудимости</title>
 
+    <!-- Google tag (gtag.js) event - delayed navigation helper -->
+    <script>
+        // Helper function to delay opening a URL until a gtag event is sent.
+        // Call it in response to an action that should navigate to a URL.
+        function gtagSendEvent(url) {
+            var callback = function () {
+                if (typeof url === 'string') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'ads_conversion___1', {
+                'event_callback': callback,
+                'event_timeout': 2000,
+                // <event_parameters>
+            });
+            return false;
+        }
+    </script>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-770170195">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-770170195');
+    </script>
+
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D7SM54232Q"></script>
     <script>
@@ -530,7 +562,7 @@ Author: PixelNX
                 Нажмите кнопку «Камера»кнопка «Камера», а затем — Отсканировать документыОтсканировать документы.<br><br>
                 Разместите документ перед камерой.
 <br><br>
-                PЕсли включен автоматический режим, документ будет отсканирован автоматически. Если вам нужно сделать снимок вручную, нажмите кнопку спуска затворакнопка спуска затвора для сканирования или одну из кнопок громкости. Перетащите углы, подогнав область сканирования под размер страницы, а затем нажмите «Оставить».<br><br>
+                Если включен автоматический режим, документ будет отсканирован автоматически. Если вам нужно сделать снимок вручную, нажмите кнопку спуска затворакнопка спуска затвора для сканирования или одну из кнопок громкости. Перетащите углы, подогнав область сканирования под размер страницы, а затем нажмите «Оставить».<br><br>
                 Нажмите «Сохранить» или добавьте в документ другие отсканированные страницы.
             </span>
         </span>. Убедитесь, что изображение чёткое и все данные на справке хорошо видны.</p>
@@ -749,10 +781,10 @@ Author: PixelNX
 <!--                        </div>-->
                         <div class="swiper-slide">
                             <div class="image ">
-                                <img alt="Фотография переводчика" class="img1" src="assets/images/team/3.jpg">
+                                <img alt="Фотография Back-office manager" class="img1" src="assets/images/team/3.jpg">
                                 <div class="img-heading mg-left">
                                     <h2>Влада</h2>
-                                    <p>Переводчик</p>
+                                    <p>Back-office manager</p>
                                 </div>
                                 <a href="tel:+420603776909"><span class="icon2"><svg height="18.97"
                                                                                      viewBox="0 0 17.84 18.97"

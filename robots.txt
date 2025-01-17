@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://preloz-rejstrik.cz/sitemap.xml
